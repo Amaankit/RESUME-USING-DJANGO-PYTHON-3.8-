@@ -1,0 +1,22 @@
+.kw-font{
+    font-family: 'Kiwi Maru', serif;
+}
+html,body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+.nav-link:hover {
+    color: black;
+    background-color: #e9cd79;
+
+}
+.nav-link.active {
+    color: black;
+    background-color: yellow;
+}

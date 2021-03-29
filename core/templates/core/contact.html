@@ -1,0 +1,79 @@
+{% extends 'core/base.html' %}
+
+{% block maincontent %}
+
+<div class="container mt-5">
+    <h3 class="text-warning border-bottom mb-5">Contact Us</h3>
+    <div class="row">
+        <p class="text-white mx-auto text-center">Do you have any questons? Please do not hesitate to contact. I will come back to you with in a matter of hours to help you.</p>
+        <div class="col-sm-12">
+            <form class="row">
+                <div class="col-sm-4 mt-10">
+                  <label for="inputEmail4" class="form-label text-white">Name</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="John Doe">
+                </div>
+                <div class="col-sm-4 mt-10">
+                  <label for="inputPassword4" class="form-label text-white">Email<b class="text-danger">*<b></b></label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="johndoe@gmail.com">
+                </div>
+
+                    
+
+
+                
+                
+                <div class="col-sm-8  mt-10">
+                  <label for="inputAddress" class="form-label text-white">Subject</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Ex-Status of my complaint">
+                </div>
+                <div class="col-sm-8 ">
+                  <label for="inputAddress2" class="form-label text-white">Message<b class="text-danger">*<b></label>
+                  <input type="text-area" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+              
+                <div class="col-sm-8 mt-10" style="margin-top: 2%;">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Are you a member?
+                    </label>
+                  </div>
+                </div>
+                <div class="col-sm-9 text-center mt-10">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+              
+
+        </div>
+       
+     
+
+    </div>
+
+</div>
+
+<div class="row mt-100px " style="margin-top: 10%;">
+    <div class="col-sm-4 text-center">
+
+        <i class="fas fa-map-marker-alt fa-2x " style="color: chocolate;" ></i>
+            <p class="text-white"> Moradabad, UP, India</p>
+    </div>
+    <div class="col-sm-4 text-center">
+        <i class="fas fa-phone mt-4 fa-2x " style="color: chocolate;"></i>
+            <p class="text-white"> XXXXXXXX20</p>
+    </div>
+    <div class="col-sm-4 text-center">
+        <i class="fas fa-envelope mt-4 fa-2x " style="color: chocolate;"></i>
+        <p class="text-white">Contact@gmail.com</p>
+    </div>
+
+</div>
+
+
+
+{% endblock maincontent %}
+
+
+
+

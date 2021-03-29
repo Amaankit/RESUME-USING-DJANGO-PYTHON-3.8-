@@ -1,0 +1,34 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block maincontent %}
+<div class=>
+    <div class="text-center">
+        <img src="{%static 'core/img/profilepic.jpg'%}" alt="Profile Pic" class="img-thumbnail mt-5 " width="250px"
+            height="150px">
+
+    </div>
+
+    <div class="text-justify mx-5 kw-font" style="text-justify: auto; ">
+        <h2 class="text-white mt-4 font-weight-bold ">Hello,</h2>
+        <p class="text-white ">Passionate Software Engineering student pursuing a <b class="text-warning">Bachelor of
+                Technology</b> in <b class="text-warning">Computer Science and Engineering</b> and seeking a
+            beginner/intern role to enhance and explore my technical knowledge gained at <b class="text-warning">Dr.
+                A.P.J. Abdul Kalam Technical University</b> in the last three years. I have participated in various quiz
+            challenges held at the college campus.<br>
+        <p class="text-white "> I have developed <b class="text-warning"> Text Editor</b> as a mini-project during my
+            summer training. Text Editor is an application program that allows a user to <i>create, edit and delete</i>
+            text files.<br>
+        <p class="text-white "> I have analyzed <b class="text-warning">Stack Overflow Developer Survey</b> data using
+            Data Science, Data Exploration.
+
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact' %}" class="btn btn-outline-success my-4" style="margin-right: 40px;">Hire Me</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-danger mx-6">Contact Me</a>
+    </div>
+
+
+
+</div>
+
+{% endblock maincontent %}
